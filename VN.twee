@@ -91,8 +91,7 @@ Though you yourself aren't sure what's going on, or what "help" really looks lik
 
 :: Choice7 {"position":"600,1725","size":"100,100"}
 You decided to be heroic, grabbing your government issued gun from inside your cabnet and slinking out of your office. It's quick work, hardly any traffic is in the building by this point- except for the large horde of pale figures. You couldn't see it that well in the camera feed, but it seems they've evolved a bit. Their faces are less defined as people, as a shell covers their eyes.
-[[Next->]]
-
+[[Next->peepee]]
 
 
 :: Choice8 {"position":"725,1725","size":"100,100"}
@@ -109,11 +108,6 @@ We have to go help them! It looks like they're going to get torn to shreds!
 There's a shred of doubt about how safe it is to leave the makeshift bunker you've just established.
 [[Help the couple ->Choice10]]
 [[Stay in the office ->Choice11]]
-
-
-
-:: Next-> {"position":"600,1850","size":"100,100"}
-
 
 
 :: Scene 2 {"position":"800,475","size":"100,100"}
@@ -156,7 +150,7 @@ There's a shred of doubt about how safe it is to leave the makeshift bunker you'
  <div style="margin-top: 1em;">
     [[Next->Scene 5]]
   </div> 
-  </div> 
+  </div>
 
 
 :: Scene 5 {"position":"800,850","size":"100,100"}
@@ -184,7 +178,7 @@ Eventually you both shuffle into your office, muscle memory be damned, catching 
 
 
 :: Scene12 {"position":"825,1475","size":"100,100"}
-Your desk is linned with moniters, the common setup for IT. You lock the door behind you, sitting down and accsessing cameras, security features and anything else you can think of to secure the space.
+Your desk is lined with moniters, the common setup for IT. You lock the door behind you, sitting down and accsessing cameras, security features and anything else you can think of to secure the space.
 [[Next ->Scene13]]
 
 
@@ -270,7 +264,7 @@ She brushed herself off, blinking away the blur.
 
 
 :: Shoot at the exposed piping {"position":"1025,2850","size":"100,100"}
-You shoot at the exposed piping, of course there's the initial bang of your gun, before the hissing of steam hits the creatures, the condensation creating a thik fog. Jasper gets up 
+You shoot at the exposed piping, of course there's the initial bang of your gun, before the hissing of steam hits the creatures, the condensation creating a thik fog. Jasper gets up
 
 
 :: Start {"position":"800,350","size":"100,100"}
@@ -335,7 +329,6 @@ The creatures seem to take notice and run towards them, leaving the harder to co
 [[Next ->Scene18]]
 
 
-
 :: What'd they say? {"position":"1175,2100","size":"100,100"}
 They look a bit nervous.
 I think they mostly talked about how... 
@@ -358,6 +351,10 @@ Var name is true
 
 :: next {"position":"1225,1525","size":"100,100"}
 hello $playerName!
+
+
+:: peepee {"position":"600,1850","size":"100,100"}
+
 
 
 :: StoryScript [script]
