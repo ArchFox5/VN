@@ -1,0 +1,649 @@
+:: StoryTitle
+VN
+
+
+:: StoryData
+{
+  "ifid": "9E90ED2C-76A1-4046-A496-B8D9635D59F0",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Start",
+  "zoom": 0.6
+}
+
+
+:: Army Ending {"position":"2200,2975","size":"100,100"}
+The Pentagon is tuned into a fortified castle, gattling guns lining the roof and lasers now in every door way acsessable only with security clearence. 
+
+You and the boys are holding mog upon mag of ammunition. 
+You'll clear out this building and keep the history of the building in tact.
+
+You all carve your names into the marble of the floor, 
+The hunter,
+Archer,
+$player name
+and 
+Maggie.
+
+"Not bad kid."
+Maggie says, pushing away hair from their face. This was the only time you'd ever heard them speak. 
+
+
+:: Choice 18 {"position":"850,2100","size":"100,100"}
+
+
+
+:: Choice 4 {"position":"575,1225","size":"100,100"}
+Thank you! Oh my god thank you! You saved my life
+[[Next ->Scene14]]
+
+
+:: Choice1 {"position":"700,975","size":"100,100"}
+<div id="passages" class="mall"></div>
+
+<div class="vn-dialogue">
+  <span class="vn-name"></span>
+  <span>The person front LUNGES at you! Mouthagape and pale as their fingers dig into your shoulders painfully- </span>
+  
+ <div style="margin-top: 1em;">
+   [[Next ->Scene6.5]]
+  </div> 
+  </div>
+
+
+:: Choice10 {"position":"1025,2625","size":"100,100"}
+You nod, taking your governmnet issued gun and slinking out from the door, careful to lock it back up on your way out. It's quick work, hardly any traffic is in the building by this point- except for the large horde of pale figures. You couldn't see it that well in the camera feed, but it seems they've evolved a bit. Their faces are less defined as people, as a shell covers their eyes.
+
+[[Next ->Choice12]]
+
+
+:: Choice11 {"position":"1150,2625","size":"100,100"}
+"Are you really not going to even try to save them?"
+[[Rethink this ->Choice9]]
+[[I'm positive ->Choice13]]
+
+
+:: Choice12 {"position":"1025,2750","size":"100,100"}
+Var if name true
+Jasper nudges you gently, pointing towards exposed heating pipes. 
+"If you shoot that it should generate some steam as a distraction"
+
+[[Shoot at the exposed piping]]
+[[Shoot at the creatures]]
+[[Wait]]
+
+
+:: Choice13 {"position":"1150,2750","size":"100,100"}
+"No, I'm not." 
+They look at you but don't fight you on it.
+Instead they begin to look through more of the cameras silently.
+
+[[Next ->Scene20]]
+
+
+:: Choice14 {"position":"600,1850","size":"100,100"}
+Going through your office you lay out all you feel are important.
+- Glock19, with 2 mags, which makes for 45 rounds total, hopefully enough.
+- 5 bottles of water
+- Basic first aid kit
+
+and that was about all that was useful in terms of survival. 
+
+[[Look online to see what's happning ->Choice15]]
+[[Do nothing ->Do nothing2]]
+
+
+:: Choice15 {"position":"725,1850","size":"100,100"}
+As you look online, there doesn't actually seem to be anything wrong. People aren't posting anything on social media. Checking the signal group chat everyone has in the government though... it's a mess of messages flooding in from all directions. Seems like this was a governmental outbreak.
+
+[[Start to take inventory ->Choice14]]
+[[Do nothing ->Do nothing2]]
+
+
+:: Choice16 {"position":"450,1975","size":"100,100"}
+You take a few shots at the heating pipe, the bullets making a dent before busting through and causing a thick stream of steam to rush out and cover the group of creatures, making them scream- gurgle, and scatter from their tight group. 
+
+The couple seem to have taken it fine though, dashing out of the cloud of steam, though in a different direction from you.
+
+[[Chase after them ->Choice20]]
+[[Go back to your office.]]
+
+
+:: Choice17 {"position":"575,1975","size":"100,100"}
+
+
+
+:: Choice19 {"position":"600,2100","size":"100,100"}
+
+
+
+:: Choice2 {"position":"925,975","size":"100,100"}
+<div id="passages" class="mall"></div>
+
+<div class="vn-dialogue">
+  <span class="vn-name"></span>
+  <span>The person front LUNGES at you! Mouthagape and pale as their fingers dig into your shoulders painfully- </span>
+  
+ <div style="margin-top: 1em;">
+[[Save them! ->Choice3]]
+[[Run away! ->Choice4]]
+  </div> 
+  </div>
+
+
+:: Choice20 {"position":"450,2100","size":"100,100"}
+You chase after the couple, following them before losing their tail. There instead you find the cashier quivering and crying in the corner of a meeting office.
+They jump up at you, begging for you to take them along.
+[[Decline and go back to your office ->Go back to your office.]]
+[[Agree ->Go back to your office.]]
+
+
+:: Choice3 {"position":"1025,1225","size":"100,100"}
+<div id="background" style="display: none;"></div>
+
+<div class="vn-dialogue">
+  <span class="vn-name"></span>
+  <span>You pull the figure away from the clerk. It's with a stuggle that you tear them apart. You try your best to restrain the customer (?) only barely able to shove them off and offer a hearty kick to the chest as they scamble and writhe in pain. </span>
+  
+ <div style="margin-top: 1em;">
+[[Next ->Scene8]]
+  </div> 
+  </div>
+
+
+:: Choice4 {"position":"825,1225","size":"100,100"}
+You run- run as far as you can. You see you're not the only one running, infact, there's not only more people running, but there are also more of those pale...people? Creatures? You didn't have the language for it running for your life.
+
+<button onclick="changeLocation('office')"> [[Next ->Scene7]]</button>
+
+
+:: Choice5 {"position":"900,1600","size":"100,100"}
+I just want to say, goodluck- before I head off. Really, I hope you make it out.
+
+They seem a bit... dissapointed, scared more like.
+[[Offer help ->Choice6]]
+[[Leave ->Choice4]]
+
+
+:: Choice6 {"position":"1025,1600","size":"100,100"}
+Though you yourself aren't sure what's going on, or what "help" really looks like, surely 2 heads are better than one. Looking at the now recovering creature, you decide to take their hand and lead them out of the store
+
+[[Next ->Scene10]]
+
+
+:: Choice7 {"position":"450,1725","size":"100,100"}
+You decided to be heroic, grabbing your government issued gun from inside your cabnet and slinking out of your office. It's quick work, hardly any traffic is in the building by this point- except for the large horde of pale figures. You couldn't see it that well in the camera feed, but it seems they've evolved a bit. Their faces are less defined as people, as a shell covers their eyes.
+[[Next->Scene19]]
+
+
+:: Choice8 {"position":"600,1725","size":"100,100"}
+You sigh, switching off that camera for now. No need to watch them die at least. You...
+[[Start to take inventory ->Choice14]]
+[[Look at what's happening outside (online) ->Choice15]]
+[[Do nothing]]
+
+
+:: Choice9 {"position":"1025,2475","size":"100,100"}
+Var if name is true
+Jasper:
+We have to go help them! It looks like they're going to get torn to shreds!
+var if name is false
+We have to go help them! It looks like they're going to get torn to shreds!
+
+There's a shred of doubt about how safe it is to leave the makeshift bunker you've just established.
+[[Help the couple ->Choice10]]
+[[Stay in the office ->Choice11]]
+
+
+:: Do nothing {"position":"850,1850","size":"100,100"}
+You sit back in your chair, mulling over the events taken place. There's a certain bounce to your leg. There's not much to do except wait, close your eyes, and think. 
+[[Start to take inventory ->Choice14]]
+[[Look at what's happening outside (online) ->Choice15]]
+[[Do nothing ->Do nothing2]]
+
+
+:: Do nothing2 {"position":"725,1975","size":"100,100"}
+You start to fall asleep in your chair, that is- until there's a thud. It sounds like someone, or something is hitting the glass behind the metal sheets. 
+
+[[Ignore it]]
+[[Check the security feed ->Choice 18]]
+[[Open the door ->Choice19]]
+
+
+:: Event 1 {"position":"2325,900","size":"100,100"}
+As you reenter the office you realize there's a severe lack of food and water. You'll need to get out at some point to get more.
+
+
+:: Event 2 {"position":"2325,1200","size":"100,100"}
+Over the intercoms of which you didn't know still worked, there's an announcment. TV moniters flicker within your office. 
+
+"To all who are still within the pentagon, there is scheduled to be a flattening within 36 hours."
+
+Flattening... a flattning?? They're going to carpet bomb the pentagon? 
+
+You have to stop this, or tell them to avoid your office at LEAST.
+
+
+:: Event 3 {"position":"2325,1500","size":"100,100"}
+A creature slips it's way into the office. There's a dance, a tango od bullets and jabs, but ultimatly it's mutated too far and has bested you. It clamps it's teeth into your shoulder taking a large meaty bite. 
+
+You cry out in pain, using just enough of your streangth to shoot a bullet through the head of the creature. Thick conjeeled and dark liquid is now coaring yorur face and shoulder as you scramble up.
+
+You've been bitten.
+
+
+:: Go back to your office. {"position":"2475,600","size":"100,100"}
+[[Event 1]]
+[[Event 2]]
+[[Event 3]]
+
+
+[[True Ending]]
+[[True Couple Ending]]
+[[Half of Couple Ending]]
+[[Army Ending]]
+[[Scientist Ending (DOOM)]]
+
+
+:: Half of Couple Ending {"position":"2200,2850","size":"100,100"}
+The doors are opened, a flood of creatures leaves into the surrounding parking lot and river. The half torn suits of people you all used to work are walking into the world with nothing stopping them but the clueless population. 
+
+One of the couple stands beside you, their hand baleld up into a first as they turn away and hop onto their motor cycle.
+
+"Farewell"
+
+
+:: Ignore it {"position":"725,2100","size":"100,100"}
+
+
+
+:: Run {"position":"1150,3000","size":"100,100"}
+Jasper is yelling all sorts of things at you, curse words mostly, at not following their advice. 
+
+
+:: Scene 2 {"position":"800,475","size":"100,100"}
+<div id="passages" class="mall"></div>
+
+<img class="vn-sprite" src="https://i.imgur.com/dqu7rgN.jpeg" style="left: 50%;" />
+
+<div class="vn-dialogue">
+  <span class="vn-name">Cashier</span>
+  <span>Hello?</span>
+  
+    <span>An intercom crackles a voice through asking for agents to come greet some big shot. You sigh when it ends without your name included.</span>
+  
+ <div style="margin-top: 1em;">
+    [[Next->Scene 3]]
+  </div> 
+  </div>
+
+
+:: Scene 3 {"position":"800,600","size":"100,100"}
+<div id="passages" class="mall"></div>
+
+<img class="vn-sprite" src="https://i.imgur.com/dqu7rgN.jpeg" style="right: 50%;" />
+
+<div class="vn-dialogue">
+  <span class="vn-name">Customer</span>
+  <span>...uuughhhhh....</span>
+  
+ <div style="margin-top: 1em;">
+    [[Next->Scene 4]]
+  </div> 
+  </div>
+
+
+:: Scene 4 {"position":"800,725","size":"100,100"}
+<div id="passages" class="mall"></div>
+
+<div class="vn-dialogue">
+  <span class="vn-name"></span>
+  <span>The cashier looks a bit uncomfortable, the person in line making a gurgling sound.</span>
+  
+ <div style="margin-top: 1em;">
+    [[Next->Scene 5]]
+  </div> 
+  </div>
+
+
+:: Scene 5 {"position":"800,850","size":"100,100"}
+<div id="passages" class="mall"></div>
+
+<div class="vn-dialogue">
+  <span class="vn-name"></span>
+  <span>The casheir is now stepping outside the booth to check up on the customer, they aren't really responding to verbal communication.</span>
+ <div style="margin-top: 1em;">
+    [[Tap them on the Shoulder->Choice1]]
+    [[Stay in Line->Choice2]]
+  </div>
+
+
+:: Scene10 {"position":"1025,1725","size":"100,100"}
+You run- run as far as you can. You see you're not the only ones running, infact, there's not only more people running, but there are also more of those pale...people? Creatures? You didn't have the language for it running for your life.
+
+[[Next ->Scene11]]
+
+
+:: Scene11 {"position":"1025,1850","size":"100,100"}
+Eventually you both shuffle into your office, muscle memory be damned, catching your breaths as you quickly began to shut it down. Metal sheets coming down to cover the modern windows as red floodlights turned on.
+[[Next ->Scene15]]
+
+
+:: Scene12 {"position":"800,1475","size":"100,100"}
+Your desk is linned with moniters, the common setup for IT. You lock the door behind you, sitting down and accsessing cameras, security features and anything else you can think of to secure the space.
+[[Next ->Scene13]]
+
+
+:: Scene12.5 {"position":"675,1475","size":"100,100"}
+<div id="passages" class="office"></div>
+
+<div class="vn-dialogue">
+  <span class="vn-name"></span>
+  <span>Back in your familiar office, youre suddenly thankful for the security within the Pentagon.</span>
+  
+  <div style="margin-top: 1em;">
+      [[Next ->Scene12]]
+  </div>
+</div>
+
+
+:: Scene13 {"position":"725,1600","size":"100,100"}
+Metal sheets come down around the modern looking office, it's dark apart from red flood lights now lighting the room. There's 1 moniters showing action: It's a couple, slowly being cornered in the south side of the building. 
+
+[[Attempt to save them ->Choice7]]
+[[Stay in your office ->Choice8]]
+
+
+:: Scene14 {"position":"575,1350","size":"100,100"}
+They smile, help you up, patting you off. 
+"Of course! Anybody would've done the same!"
+
+[[Team up and help! ->Choice6]]
+[[Good luck to you! ->Choice5]]
+
+
+:: Scene15 {"position":"1025,1975","size":"100,100"}
+The cashier turns to you, wiping sweat from their forehead
+"What's your name?"
+Ah right- human decency you almost forgot
+<<textbox "$playerName" "">>
+<<button "Submit">>
+    <<if $playerName.trim().length > 0>>
+        <<goto "Greeting">>
+    <<else>>
+        <<replace "#error">><span id="error" style="color:red;">Please enter a name.</span><</replace>>
+    <</if>>
+<</button>>
+
+<span id="error"></span>
+
+[[Next ->Scene16]]
+
+
+:: Scene16 {"position":"1025,2100","size":"100,100"}
+$playerName, huh? I think...I think i heard some people chat about you durring my shifts at the convinence store.
+
+[[What'd they say?]]
+[[What's your name?]]
+[[Stay quiet]]
+
+
+:: Scene17 {"position":"1025,2350","size":"100,100"}
+There you see the live feed of a couple, in the southen part of this building slowly being surrounded. They've got a plank, swinging around wildly to frend off the creatures.
+[[Next ->Choice9]]
+
+
+:: Scene18 {"position":"900,3125","size":"100,100"}
+The creatures follow them, quickly giving up on the couple to instead chase after the unnarmed cashier. They might still have had some sentience to know that was an easy target.
+[[Next ->Scene21]]
+
+
+:: Scene19 {"position":"450,1850","size":"100,100"}
+You see the woman swinging the wooden plank wildy, both of them are screaming pretty loudly at this point. 
+There looks to be some heating pipes around them. Assuming you're a good enough shot you could cause a distraction of sorts. 
+[[Shoot the heating pipes ->Choice16]]
+[[Yell out to catch the couple's attention ->Choice17]]
+[[Wait ->Wait4]]
+
+
+:: Scene20 {"position":"1275,2875","size":"100,100"}
+You feel a little awkward and try to start up conversation
+
+
+:: Scene21 {"position":"900,3250","size":"100,100"}
+The newly unsurrounded couple, see you after the small argument with Jasper. They tentiviely come to you.
+
+[[Invite them back into the office with you ->Go back to your office.]]
+
+
+:: Scene6.5 {"position":"700,1100","size":"100,100"}
+<div id="passages" class="mall"></div>
+The clerk grabs the customer (?) by the nape of the neck- prying them away from you, and flinging them into a nearby wall with questionably human strength. 
+
+[[Thank them ->Choice 4]]
+[[Run away! ->Choice4]]
+
+
+:: Scene7 {"position":"825,1350","size":"100,100"}
+You find yourself back to your office- cursed memory muscle. Course that wasn't really a bad thing, your office had certain benifits to it. 
+
+[[Next ->Scene12.5]]
+
+
+:: Scene8 {"position":"1025,1350","size":"100,100"}
+<div id="background" style="display: none;"></div>
+
+<div class="vn-dialogue">
+  <span class="vn-name"></span>
+  <span>The cashier looks shell shocked, they stare past you as you offer a hand up, scanning their body for injuries to which you find none visable. </span>
+ <div style="margin-top: 1em;">
+[[Next ->Scene9]]
+  </div> 
+  </div>
+
+
+:: Scene9 {"position":"1025,1475","size":"100,100"}
+<div id="background" style="display: none;"></div>
+
+<div class="vn-dialogue">
+  <span class="vn-name">Cashier</span>
+  <span>Th-thank you. </span>
+  <div style="margin-top: 1em;">
+  <span> She brushed herself off, blinking away the blur. </span>
+[[Offer help ->Choice6]]
+[[Good luck to you ->Choice5]]
+  </div> 
+  </div>
+
+
+:: Scientist Ending (DOOM) {"position":"2200,3100","size":"100,100"}
+
+
+
+:: Shoot at the creatures {"position":"1150,2875","size":"100,100"}
+There's a squeak that comes from Jasper as you shoot at one of the creatures. The bullets have some effect, tearing a hole into the arms of one, and causing it to scream out in pain. Upon that same scream, the rest quickly locate you, and begin chase.
+[[Run]]
+
+
+:: Shoot at the exposed piping {"position":"1025,2875","size":"100,100"}
+You shoot at the exposed piping, of course there's the initial bang of your gun, before the hissing of steam hits the creatures, the condensation creating a thik fog. Jasper gets up
+
+
+:: Start {"position":"800,350","size":"100,100"}
+<div id="passages" class="mall">
+
+<img class="vn-sprite" src="https://i.imgur.com/dWx8Wzn.png" style="left: 50%;" />
+<img class="vn-sprite" src="https://i.imgur.com/dqu7rgN.jpeg" style="right: 50%;" />
+
+<div class="vn-dialogue">
+  <span class="vn-name">Cashier</span>
+  <span>Will that be all?</span>
+  
+ <div style="margin-top: 1em;">
+    [[Next->Scene 2]]
+  </div>
+
+
+:: Stay quiet {"position":"1025,2225","size":"100,100"}
+if var truth is false
+if name is false
+They blink at you for a moment before awkardly ending your interaction, they look around your office spotting the security camera feed you'd now pulled up. 
+
+if var truth is true
+if name is fasle
+They chuckle, looking over your shoulder at the camera feed you now had pulled open.
+
+if var truth is true
+if name is true
+Jasper chuckled, at the absudity of this situation, a nervous reaction maybe, before looking over your shoulder to the security feed you had now pulled open.
+
+[[Next ->Scene17]]
+
+
+:: True Couple Ending {"position":"2200,2725","size":"100,100"}
+The doors are opened, a flood of creatures leaves into the surrounding parking lot and river. The half torn suits of people you all used to work are walking into the world with nothing stopping them but the clueless population. 
+
+The couple stands beside you 
+(add thrupple)
+
+
+:: True Ending {"position":"2200,2600","size":"100,100"}
+Jasper 
+
+
+:: Untitled Passage 1 {"position":"1375,1500","size":"100,100"}
+<<textbox "$playerName" "">>
+<<button "Submit">>
+    <<if $playerName.trim().length > 0>>
+        <<goto "Greeting">>
+    <<else>>
+        <<replace "#error">><span id="error" style="color:red;">Please enter a name.</span><</replace>>
+    <</if>>
+<</button>>
+
+<span id="error"></span>
+
+[[next]]
+
+
+:: Wait {"position":"900,2875","size":"100,100"}
+Jasper nudges you again, less gently this time in a harsh whisper
+"Can't you hear their screaming? You have to do something!"
+[[Shoot at the exposed piping]]
+[[Shoot at the creatures]]
+[[Wait ->Wait2]]
+
+
+:: Wait2 {"position":"900,3000","size":"100,100"}
+var -trustJasper
+Jasper can't handle this anymore, and gets up, walking towards the creatures and yelling a taunt. 
+The creatures seem to take notice and run towards them, leaving the harder to corner couple alone.
+
+[[Next ->Scene18]]
+
+
+:: Wait4 {"position":"325,1975","size":"100,100"}
+You wait, watching the woman grow tired, the creatures starting to close in on them.
+[[Wait ->Wait5]]
+
+
+:: Wait5 {"position":"325,2100","size":"100,100"}
+You are now watching the death of a couple. What you experienced maybe an hour ago now forceful, bloody and loud as they both scream in pain. The ripping of flesh searing the walls with an unmistakable crimson red. 
+[[Go back to your office.]]
+
+
+:: What'd they say? {"position":"1175,2100","size":"100,100"}
+They look a bit nervous.
+I think they mostly talked about how... 
+if trust is +1 
+pushy you could be, but it seemed like you helped them even when their tech problems were really simple.
+var truth is true
+if trust is <1
+They just mentioned how great your skills were, and how much they respect you!
+
+[[What's your name?]]
+[[Next ->Stay quiet]]
+
+
+:: What's your name? {"position":"1300,2100","size":"100,100"}
+Oh- My name? My name is Jasper.
+Var name is true
+[[What'd they say?]]
+[[Next ->Stay quiet]]
+
+
+:: next {"position":"1225,1525","size":"100,100"}
+hello $playerName!
+
+
+:: StoryScript [script]
+$(document).on('keydown', function (event) {
+    if (event.code === 'Space') {
+        event.preventDefault();
+        const links = $('a.link-internal');
+        if (links.length === 1) {
+            links[0].click();
+        }
+    }
+});
+
+:: StoryStylesheet [stylesheet]
+#passages {
+  height: 100vh;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease;
+}
+
+.mall {
+  background-image: url("https://i.imgur.com/rayNA3M.png");
+}
+
+.office {
+  background-image: url("https://wpsproav.com/wp-content/uploads/2023/08/pbr-dod-news-broadcast-control-room.jpg");
+}
+
+
+    }
+
+    .img-button:hover {
+      filter: hue-rotate(-50deg) brightness(1.2) saturate(2);
+    }
+
+    .button-container {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+    }
+
+<script>
+  function changeLocation(location) {
+    const passages = document.getElementById('passages');
+    passages.className = location;
+  }
+
+.vn-dialogue {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1em;
+  box-sizing: border-box;
+  font-size: 1.2em;
+}
+
+/* Character name */
+.vn-name {
+  font-weight: bold;
+  color: #ffcc00;
+  margin-bottom: 0.5em;
+  display: block;
+}
+
+.vn-sprite {
+  position: absolute;
+  bottom: 100px;
+  max-height: 60vh;
+}
